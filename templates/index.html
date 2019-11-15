@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Data Visualization Careers</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Data Visualization Careers Dashboard</h1>
+        <p>Use the interactive map below to view jobs opportunities for the top 30 metropolitan cities in the US</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+            <span class="page_left">
+        <!-- <div class="well">
+          <h5>SELECT Sample:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div> -->
+        <div class="panel panel-primary">
+          <!-- <div class="panel-heading">
+            <h3 class="panel-title">Sample MetaData</h3>
+          </div> -->
+          <div id="jobs_map" class="panel-body"></div>
+        </div>
+        </span>
+      </div>
+      <div class="row">
+            <div class="col-md-3">
+              <span class="page_right">
+                <div class="col-md-10">
+                  <h4>Current Weather on Mars</h4>
+                  <p>{{mars.mars_weather}}</p>
+                  <br>
+                  <div class="col-md-10">
+                    <h4>Mars Facts</h3>
+                      {{mars.facts_string | safe}}
+                  </div>
+                </div>
+              </span>
+            </div>
+  
+          </div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+  <div class="col-md-10">
+        <span class="bottom_table">
+        <div id="table-area" class="">
+          <table id="jobs_table" class="table table-striped">
+            <thead>
+              <tr>
+                <th class="table-head">Company</th>
+                <th class="table-head">Title</th>
+                <th class="table-head">Location</th>
+                <th class="table-head">Summary</th>
+                <th class="table-head">Link</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        </span>
+      </div>
+  </div>
+
+  <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="{{ url_for('static', filename='js/bonus.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
+</body>
+
+</html>

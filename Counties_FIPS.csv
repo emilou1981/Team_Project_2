@@ -1,0 +1,201 @@
+﻿Metro_Area,State,County,FIPS
+"New York, NY",NY,New York,36061
+"New York, NY",NY,Bronx,36005
+"New York, NY",NY,Kings,36047
+"New York, NY",NY,Queens,36081
+"New York, NY",NY,Richmond,36085
+"Los Angeles, CA",CA,Los Angeles,6037
+"Los Angeles, CA",CA,Ventura,6111
+"Los Angeles, CA",CA,San Bernardino,6071
+"Los Angeles, CA",CA,Riverside,6065
+"Los Angeles, CA",CA,Orange,6059
+"Chicago, IL",IL,Cook,17031
+"Chicago, IL",IL,Du Page,17043
+"Chicago, IL",IL,Kane,17089
+"Chicago, IL",IL,Lake,17097
+"Chicago, IL",IL,Will,17197
+"Washington, DC",MD,Frederick,24021
+"Washington, DC",MD,Montgomery,24031
+"Washington, DC",MD,Prince Georges,24033
+"Washington, DC",DC,Washington,11001
+"San Francisco, CA",CA,Alameda,6001
+"San Francisco, CA",CA,Contra Costa,6013
+"San Francisco, CA",CA,Marin,6041
+"San Francisco, CA",CA,Napa,6055
+"San Francisco, CA",CA,San Francisco,6075
+"San Francisco, CA",CA,San Mateo,6081
+"San Francisco, CA",CA,Santa Clara,6085
+"San Francisco, CA",CA,Solano,6095
+"San Francisco, CA",CA,Sonoma,6097
+"Boston, MA",MA,Bristol,25005
+"Boston, MA",RI,Bristol,44001
+"Boston, MA",RI,Kent,44003
+"Boston, MA",RI,Newport,44005
+"Boston, MA",RI,Providence,44007
+"Boston, MA",RI,Washington,44009
+"Dallas, TX",TX,Dallas,48113
+"Dallas, TX",TX,Dallas,48113
+"Dallas, TX",TX,Dallas,48113
+"Dallas, TX",TX,Dallas,48113
+"Dallas, TX",TX,Dallas,48113
+"Philadelphia, PA",PA,Bucks,42017
+"Philadelphia, PA",PA,Chester,42029
+"Philadelphia, PA",PA,Delaware,42045
+"Philadelphia, PA",PA,Montgomery,42091
+"Philadelphia, PA",PA,Philadelphia,42101
+"Philadelphia, PA",NJ,Burlington,34005
+"Philadelphia, PA",NJ,Camden,34007
+"Philadelphia, PA",NJ,Gloucester,34015
+"Philadelphia, PA",NJ,Salem,34033
+"Houston, TX",TX,Austin,48015
+"Houston, TX",TX,Brazoria,48039
+"Houston, TX",TX,Chambers,48071
+"Houston, TX",TX,Fort Bend,48157
+"Houston, TX",TX,Galveston,48167
+"Houston, TX",TX,Harris,48201
+"Houston, TX",TX,Liberty,48291
+"Houston, TX",TX,Montgomery,48339
+"Houston, TX",TX,Waller,48473
+"Miami, FL",FL,Dade,12025
+"Miami, FL",FL,Broward,12011
+"Miami, FL",FL,Palm Beach,12099
+"Atlanta, GA",GA,Fulton,13121
+"Atlanta, GA",GA,De Kalb,13089
+"Atlanta, GA",GA,Gwinnett,13135
+"Atlanta, GA",GA,Cobb,13067
+"Atlanta, GA",GA,Clayton,13063
+"Atlanta, GA",GA,Coweta,13077
+"Atlanta, GA",GA,Douglas,13097
+"Atlanta, GA",GA,Fayette,13113
+"Atlanta, GA",GA,Henry,13151
+"Detroit, MI",MI,Lapeer,26087
+"Detroit, MI",MI,Livingston,26093
+"Detroit, MI",MI,Macomb,26099
+"Detroit, MI",MI,Oakland,26125
+"Detroit, MI",MI,St Clair,26147
+"Detroit, MI",MI,Wayne,26163
+"Seattle, WA",WA,King,53033
+"Seattle, WA",WA,Snohomish,53061
+"Seattle, WA",WA,Pierce,53053
+"Minneapolis, MN",MN,Hennepin,27053
+"Minneapolis, MN",MN,Ramsey,27123
+"Minneapolis, MN",MN,Dakota,27037
+"Minneapolis, MN",MN,Anoka,27003
+"Minneapolis, MN",MN,Washington,27163
+"Minneapolis, MN",MN,Scott,27139
+"Minneapolis, MN",MN,Wright,27171
+"Minneapolis, MN",MN,Carver,27019
+"Minneapolis, MN",MN,Sherburne,27141
+"Minneapolis, MN",WI,St Croix,55109
+"Minneapolis, MN",MN,Chisago,27025
+"Minneapolis, MN",WI,Pierce,55093
+"Minneapolis, MN",MN,Isanti,27059
+"Minneapolis, MN",MN,Le Sueur,27079
+"Minneapolis, MN",MN,Mille Lacs,27095
+"Minneapolis, MN",MN,Sibley,27143
+"Cleveland, OH",OH,Cuyahoga,39035
+"Cleveland, OH",OH,Lake,39085
+"Cleveland, OH",OH,Geauga,39055
+"Cleveland, OH",OH,Medina,39103
+"Cleveland, OH",OH,Lorain,39093
+"Denver, CO",CO,Jefferson,8059
+"Denver, CO",CO,Adams,8001
+"Denver, CO",CO,Arapahoe,8005
+"Orlando, FL",FL,Lake,12069
+"Orlando, FL",FL,Orange,12095
+"Orlando, FL",FL,Osceola,12097
+"Orlando, FL",FL,Seminole,12117
+"Portland, OR",OR,Multnomah,41051
+"Portland, OR",OR,Washington,41067
+"Portland, OR",OR,Clackamas,41005
+"Portland, OR",OR,Columbia,41009
+"Portland, OR",OR,Yamhill,41071
+"Portland, OR",WA,Clark,53011
+"Portland, OR",WA,Skamania,53059
+"St. Louis, MO",MO,St Louis,29189
+"St. Louis, MO",MO,St Louis City,29510
+"St. Louis, MO",MO,St Charles,29183
+"St. Louis, MO",IL,St Clair,17163
+"St. Louis, MO",IL,Madison,17119
+"Pittsburgh, PA",PA,Allegheny,42003
+"Pittsburgh, PA",PA,Armstrong,42005
+"Pittsburgh, PA",PA,Beaver,42007
+"Pittsburgh, PA",PA,Butler,42019
+"Pittsburgh, PA",PA,Fayette,42051
+"Pittsburgh, PA",PA,Washington,42125
+"Pittsburgh, PA",PA,Westmoreland,42129
+"Charlotte, NC",NC,Cabarrus,37025
+"Charlotte, NC",NC,Gaston,37071
+"Charlotte, NC",NC,Iredell,37097
+"Charlotte, NC",NC,Lincoln,37109
+"Charlotte, NC",NC,Mecklenburg,37119
+"Charlotte, NC",NC,Rowan,37159
+"Charlotte, NC",NC,Union,37179
+"Charlotte, NC",SC,Chester,45023
+"Charlotte, NC",SC,Lancaster,45057
+"Charlotte, NC",SC,York,45091
+"Sacramento, CA",CA,Sacramento,6067
+"Salt Lake City, UT",UT,Salt Lake,49035
+"Salt Lake City, UT",UT,Tooele,49045
+"Kansas City, MO",MO,Cass,29037
+"Kansas City, MO",MO,Clay,29047
+"Kansas City, MO",MO,Clinton,29049
+"Kansas City, MO",MO,Jackson,29095
+"Kansas City, MO",KS,Johnson,20091
+"Kansas City, MO",MO,Lafayette,29107
+"Kansas City, MO",KS,Leavenworth,20103
+"Kansas City, MO",KS,Miami,20121
+"Kansas City, MO",MO,Platte,29165
+"Kansas City, MO",MO,Ray,29177
+"Kansas City, MO",KS,Wyandotte,20209
+"Kansas City, MO",MO,Bates,29013
+"Kansas City, MO",MO,Caldwell,29025
+"Kansas City, MO",KS,Linn,20107
+"Columbus, OH",OH,Delaware,39041
+"Columbus, OH",OH,Fairfield,39045
+"Columbus, OH",OH,Franklin,39049
+"Las Vegas, NV",NV,Clark,32003
+"Indianapolis, IN",IN,Marion,18097
+"Indianapolis, IN",IN,Hamilton,18057
+"Indianapolis, IN",IN,Hendricks,18063
+"Indianapolis, IN",IN,Johnson,18081
+"Indianapolis, IN",IN,Madison,18095
+"Indianapolis, IN",IN,Hancock,18059
+"Indianapolis, IN",IN,Morgan,18109
+"Indianapolis, IN",IN,Boone,18011
+"Indianapolis, IN",IN,Shelby,18145
+"Indianapolis, IN",IN,Putnam,18133
+"Indianapolis, IN",IN,Brown,18013
+"Cincinnati, OH",OH,Brown,39015
+"Cincinnati, OH",OH,Butler,39017
+"Cincinnati, OH",OH,Clermont,39025
+"Cincinnati, OH",OH,Clinton,39027
+"Cincinnati, OH",OH,Hamilton,39061
+"Cincinnati, OH",OH,Warren,39165
+"Cincinnati, OH",KY,Boone,21015
+"Cincinnati, OH",KY,Bracken,21023
+"Cincinnati, OH",KY,Campbell,21037
+"Cincinnati, OH",KY,Gallatin,21077
+"Cincinnati, OH",KY,Grant,21081
+"Cincinnati, OH",KY,Kenton,21117
+"Cincinnati, OH",KY,Mason,21161
+"Cincinnati, OH",KY,Pendleton,21191
+"Cincinnati, OH",IN,Dearborn,18029
+"Cincinnati, OH",IN,Franklin,18047
+"Cincinnati, OH",IN,Ohio,18115
+"Raleigh, NC",NC,Wake,37183
+"Raleigh, NC",NC,Franklin,37069
+"Raleigh, NC",NC,Johnston,37101
+"Raleigh, NC",NC,Durham,37063
+"Raleigh, NC",NC,Orange,37135
+"Raleigh, NC",NC,Chatham,37037
+"Raleigh, NC",NC,Person,37145
+"Raleigh, NC",NC,Harnett,37085
+"Milwaukee, WI",WI,Dodge,55027
+"Milwaukee, WI",WI,Milwaukee,55079
+"Milwaukee, WI",WI,Jefferson,55055
+"Milwaukee, WI",WI,Ozaukee,55089
+"Milwaukee, WI",WI,Racine,55101
+"Milwaukee, WI",WI,Walworth,55127
+"Milwaukee, WI",WI,Washington,55131
+"Milwaukee, WI",WI,Waukesha,55133
