@@ -1,0 +1,201 @@
+﻿Metro_Area,State,County,FIPS
+"New York, NY",New York,New York,36061
+"New York, NY",New York,Bronx,36005
+"New York, NY",New York,Kings,36047
+"New York, NY",New York,Queens,36081
+"New York, NY",New York,Richmond,36085
+"Los Angeles, CA",California,Los Angeles,6037
+"Los Angeles, CA",California,Ventura,6111
+"Los Angeles, CA",California,San Bernardino,6071
+"Los Angeles, CA",California,Riverside,6065
+"Los Angeles, CA",California,Orange,6059
+"Chicago, IL",Illinois,Cook,17031
+"Chicago, IL",Illinois,Du Page,17043
+"Chicago, IL",Illinois,Kane,17089
+"Chicago, IL",Illinois,Lake,17097
+"Chicago, IL",Illinois,Will,17197
+"Washington, DC",Maryland,Frederick,24021
+"Washington, DC",Maryland,Montgomery,24031
+"Washington, DC",Maryland,Prince Georges,24033
+"Washington, DC",District of Columbia,Washington,11001
+"San Francisco, CA",California,Alameda,6001
+"San Francisco, CA",California,Contra Costa,6013
+"San Francisco, CA",California,Marin,6041
+"San Francisco, CA",California,Napa,6055
+"San Francisco, CA",California,San Francisco,6075
+"San Francisco, CA",California,San Mateo,6081
+"San Francisco, CA",California,Santa Clara,6085
+"San Francisco, CA",California,Solano,6095
+"San Francisco, CA",California,Sonoma,6097
+"Boston, MA",Massachusetts,Bristol,25005
+"Boston, MA",Rhode Island,Bristol,44001
+"Boston, MA",Rhode Island,Kent,44003
+"Boston, MA",Rhode Island,Newport,44005
+"Boston, MA",Rhode Island,Providence,44007
+"Boston, MA",Rhode Island,Washington,44009
+"Dallas, TX",Texas,Dallas,48113
+"Dallas, TX",Texas,Dallas,48113
+"Dallas, TX",Texas,Dallas,48113
+"Dallas, TX",Texas,Dallas,48113
+"Dallas, TX",Texas,Dallas,48113
+"Philadelphia, PA",Pennsylvania,Bucks,42017
+"Philadelphia, PA",Pennsylvania,Chester,42029
+"Philadelphia, PA",Pennsylvania,Delaware,42045
+"Philadelphia, PA",Pennsylvania,Montgomery,42091
+"Philadelphia, PA",Pennsylvania,Philadelphia,42101
+"Philadelphia, PA",New Jersey,Burlington,34005
+"Philadelphia, PA",New Jersey,Camden,34007
+"Philadelphia, PA",New Jersey,Gloucester,34015
+"Philadelphia, PA",New Jersey,Salem,34033
+"Houston, TX",Texas,Austin,48015
+"Houston, TX",Texas,Brazoria,48039
+"Houston, TX",Texas,Chambers,48071
+"Houston, TX",Texas,Fort Bend,48157
+"Houston, TX",Texas,Galveston,48167
+"Houston, TX",Texas,Harris,48201
+"Houston, TX",Texas,Liberty,48291
+"Houston, TX",Texas,Montgomery,48339
+"Houston, TX",Texas,Waller,48473
+"Miami, FL",Florida,Dade,12025
+"Miami, FL",Florida,Broward,12011
+"Miami, FL",Florida,Palm Beach,12099
+"Atlanta, GA",Georgia,Fulton,13121
+"Atlanta, GA",Georgia,De Kalb,13089
+"Atlanta, GA",Georgia,Gwinnett,13135
+"Atlanta, GA",Georgia,Cobb,13067
+"Atlanta, GA",Georgia,Clayton,13063
+"Atlanta, GA",Georgia,Coweta,13077
+"Atlanta, GA",Georgia,Douglas,13097
+"Atlanta, GA",Georgia,Fayette,13113
+"Atlanta, GA",Georgia,Henry,13151
+"Detroit, MI",Michigan,Lapeer,26087
+"Detroit, MI",Michigan,Livingston,26093
+"Detroit, MI",Michigan,Macomb,26099
+"Detroit, MI",Michigan,Oakland,26125
+"Detroit, MI",Michigan,St Clair,26147
+"Detroit, MI",Michigan,Wayne,26163
+"Seattle, WA",Washington,King,53033
+"Seattle, WA",Washington,Snohomish,53061
+"Seattle, WA",Washington,Pierce,53053
+"Minneapolis, MN",Minnesota,Hennepin,27053
+"Minneapolis, MN",Minnesota,Ramsey,27123
+"Minneapolis, MN",Minnesota,Dakota,27037
+"Minneapolis, MN",Minnesota,Anoka,27003
+"Minneapolis, MN",Minnesota,Washington,27163
+"Minneapolis, MN",Minnesota,Scott,27139
+"Minneapolis, MN",Minnesota,Wright,27171
+"Minneapolis, MN",Minnesota,Carver,27019
+"Minneapolis, MN",Minnesota,Sherburne,27141
+"Minneapolis, MN",Wisconsin,St Croix,55109
+"Minneapolis, MN",Minnesota,Chisago,27025
+"Minneapolis, MN",Wisconsin,Pierce,55093
+"Minneapolis, MN",Minnesota,Isanti,27059
+"Minneapolis, MN",Minnesota,Le Sueur,27079
+"Minneapolis, MN",Minnesota,Mille Lacs,27095
+"Minneapolis, MN",Minnesota,Sibley,27143
+"Cleveland, OH",Ohio,Cuyahoga,39035
+"Cleveland, OH",Ohio,Lake,39085
+"Cleveland, OH",Ohio,Geauga,39055
+"Cleveland, OH",Ohio,Medina,39103
+"Cleveland, OH",Ohio,Lorain,39093
+"Denver, CO",Colorado,Jefferson,8059
+"Denver, CO",Colorado,Adams,8001
+"Denver, CO",Colorado,Arapahoe,8005
+"Orlando, FL",Florida,Lake,12069
+"Orlando, FL",Florida,Orange,12095
+"Orlando, FL",Florida,Osceola,12097
+"Orlando, FL",Florida,Seminole,12117
+"Portland, OR",Oregon,Multnomah,41051
+"Portland, OR",Oregon,Washington,41067
+"Portland, OR",Oregon,Clackamas,41005
+"Portland, OR",Oregon,Columbia,41009
+"Portland, OR",Oregon,Yamhill,41071
+"Portland, OR",Washington,Clark,53011
+"Portland, OR",Washington,Skamania,53059
+"St. Louis, MO",Missouri,St Louis,29189
+"St. Louis, MO",Missouri,St Louis City,29510
+"St. Louis, MO",Missouri,St Charles,29183
+"St. Louis, MO",Illinois,St Clair,17163
+"St. Louis, MO",Illinois,Madison,17119
+"Pittsburgh, PA",Pennsylvania,Allegheny,42003
+"Pittsburgh, PA",Pennsylvania,Armstrong,42005
+"Pittsburgh, PA",Pennsylvania,Beaver,42007
+"Pittsburgh, PA",Pennsylvania,Butler,42019
+"Pittsburgh, PA",Pennsylvania,Fayette,42051
+"Pittsburgh, PA",Pennsylvania,Washington,42125
+"Pittsburgh, PA",Pennsylvania,Westmoreland,42129
+"Charlotte, NC",North Carolina,Cabarrus,37025
+"Charlotte, NC",North Carolina,Gaston,37071
+"Charlotte, NC",North Carolina,Iredell,37097
+"Charlotte, NC",North Carolina,Lincoln,37109
+"Charlotte, NC",North Carolina,Mecklenburg,37119
+"Charlotte, NC",North Carolina,Rowan,37159
+"Charlotte, NC",North Carolina,Union,37179
+"Charlotte, NC",South Carolina,Chester,45023
+"Charlotte, NC",South Carolina,Lancaster,45057
+"Charlotte, NC",South Carolina,York,45091
+"Sacramento, CA",California,Sacramento,6067
+"Salt Lake City, UT",Utah,Salt Lake,49035
+"Salt Lake City, UT",Utah,Tooele,49045
+"Kansas City, MO",Missouri,Cass,29037
+"Kansas City, MO",Missouri,Clay,29047
+"Kansas City, MO",Missouri,Clinton,29049
+"Kansas City, MO",Missouri,Jackson,29095
+"Kansas City, MO",Kansas,Johnson,20091
+"Kansas City, MO",Missouri,Lafayette,29107
+"Kansas City, MO",Kansas,Leavenworth,20103
+"Kansas City, MO",Kansas,Miami,20121
+"Kansas City, MO",Missouri,Platte,29165
+"Kansas City, MO",Missouri,Ray,29177
+"Kansas City, MO",Kansas,Wyandotte,20209
+"Kansas City, MO",Missouri,Bates,29013
+"Kansas City, MO",Missouri,Caldwell,29025
+"Kansas City, MO",Kansas,Linn,20107
+"Columbus, OH",Ohio,Delaware,39041
+"Columbus, OH",Ohio,Fairfield,39045
+"Columbus, OH",Ohio,Franklin,39049
+"Las Vegas, NV",Nevada,Clark,32003
+"Indianapolis, IN",Indiana,Marion,18097
+"Indianapolis, IN",Indiana,Hamilton,18057
+"Indianapolis, IN",Indiana,Hendricks,18063
+"Indianapolis, IN",Indiana,Johnson,18081
+"Indianapolis, IN",Indiana,Madison,18095
+"Indianapolis, IN",Indiana,Hancock,18059
+"Indianapolis, IN",Indiana,Morgan,18109
+"Indianapolis, IN",Indiana,Boone,18011
+"Indianapolis, IN",Indiana,Shelby,18145
+"Indianapolis, IN",Indiana,Putnam,18133
+"Indianapolis, IN",Indiana,Brown,18013
+"Cincinnati, OH",Ohio,Brown,39015
+"Cincinnati, OH",Ohio,Butler,39017
+"Cincinnati, OH",Ohio,Clermont,39025
+"Cincinnati, OH",Ohio,Clinton,39027
+"Cincinnati, OH",Ohio,Hamilton,39061
+"Cincinnati, OH",Ohio,Warren,39165
+"Cincinnati, OH",Kentucky,Boone,21015
+"Cincinnati, OH",Kentucky,Bracken,21023
+"Cincinnati, OH",Kentucky,Campbell,21037
+"Cincinnati, OH",Kentucky,Gallatin,21077
+"Cincinnati, OH",Kentucky,Grant,21081
+"Cincinnati, OH",Kentucky,Kenton,21117
+"Cincinnati, OH",Kentucky,Mason,21161
+"Cincinnati, OH",Kentucky,Pendleton,21191
+"Cincinnati, OH",Indiana,Dearborn,18029
+"Cincinnati, OH",Indiana,Franklin,18047
+"Cincinnati, OH",Indiana,Ohio,18115
+"Raleigh, NC",North Carolina,Wake,37183
+"Raleigh, NC",North Carolina,Franklin,37069
+"Raleigh, NC",North Carolina,Johnston,37101
+"Raleigh, NC",North Carolina,Durham,37063
+"Raleigh, NC",North Carolina,Orange,37135
+"Raleigh, NC",North Carolina,Chatham,37037
+"Raleigh, NC",North Carolina,Person,37145
+"Raleigh, NC",North Carolina,Harnett,37085
+"Milwaukee, WI",Wisconsin,Dodge,55027
+"Milwaukee, WI",Wisconsin,Milwaukee,55079
+"Milwaukee, WI",Wisconsin,Jefferson,55055
+"Milwaukee, WI",Wisconsin,Ozaukee,55089
+"Milwaukee, WI",Wisconsin,Racine,55101
+"Milwaukee, WI",Wisconsin,Walworth,55127
+"Milwaukee, WI",Wisconsin,Washington,55131
+"Milwaukee, WI",Wisconsin,Waukesha,55133
