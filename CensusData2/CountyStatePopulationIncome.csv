@@ -1,0 +1,201 @@
+,County,Metro_Area,State,Population,Personal Income(2017),Personal Income(Rank in State 2017)
+0,New York,"New York, NY",New York,1636261.0,"175,960",1
+1,Bronx,"New York, NY",New York,1445237.0,"35,564",61
+2,Kings,"New York, NY",New York,2611232.0,"48,758",21
+3,Queens,"New York, NY",New York,2309032.0,"46,829",23
+4,Richmond,"New York, NY",New York,474214.0,"54,908",9
+5,Los Angeles,"Los Angeles, CA",California,10120540.0,"58,419",18
+6,Ventura,"Los Angeles, CA",California,848921.0,"59,178",17
+7,San Bernardino,"Los Angeles, CA",California,2134174.0,"38,816",51
+8,Riverside,"Los Angeles, CA",California,2382570.0,"39,261",49
+9,Orange,"Los Angeles, CA",California,3170707.0,"65,400",9
+10,Cook,"Chicago, IL",Illinois,5228455.0,"59,238",3
+11,Du Page,"Chicago, IL",Illinois,,,
+12,Kane,"Chicago, IL",Illinois,531463.0,"48,975",13
+13,Lake,"Chicago, IL",Illinois,704644.0,"76,227",1
+14,Will,"Chicago, IL",Illinois,688648.0,"50,638",8
+15,Frederick,"Washington, DC",Maryland,247224.0,"59,259",9
+16,Montgomery,"Washington, DC",Maryland,1040245.0,"86,136",1
+17,Prince Georges,"Washington, DC",Maryland,,,
+18,Washington,"Washington, DC",District of Columbia,,,
+19,Alameda,"San Francisco, CA",California,1650306.0,"71,282",6
+20,Contra Costa,"San Francisco, CA",California,1137194.0,"76,527",5
+21,Marin,"San Francisco, CA",California,260633.0,"124,552",1
+22,Napa,"San Francisco, CA",California,141185.0,"71,174",7
+23,San Francisco,"San Francisco, CA",California,872795.0,"119,868",2
+24,San Mateo,"San Francisco, CA",California,768204.0,"113,410",3
+25,Santa Clara,"San Francisco, CA",California,1929581.0,"98,032",4
+26,Solano,"San Francisco, CA",California,439300.0,"49,116",28
+27,Sonoma,"San Francisco, CA",California,503249.0,"60,286",13
+28,Bristol,"Boston, MA",Massachusetts,557848.0,"51,298",12
+29,Bristol,"Boston, MA",Rhode Island,48863.0,"76,148",1
+30,Kent,"Boston, MA",Rhode Island,163651.0,"56,996",4
+31,Newport,"Boston, MA",Rhode Island,83197.0,"64,599",2
+32,Providence,"Boston, MA",Rhode Island,635230.0,"46,470",5
+33,Washington,"Boston, MA",Rhode Island,126122.0,"62,357",3
+34,Dallas,"Dallas, TX",Texas,2592844.0,"55,859",19
+35,Dallas,"Dallas, TX",Texas,2592844.0,"55,859",19
+36,Dallas,"Dallas, TX",Texas,2592844.0,"55,859",19
+37,Dallas,"Dallas, TX",Texas,2592844.0,"55,859",19
+38,Dallas,"Dallas, TX",Texas,2592844.0,"55,859",19
+39,Bucks,"Philadelphia, PA",Pennsylvania,625925.0,"69,370",3
+40,Chester,"Philadelphia, PA",Pennsylvania,516813.0,"77,465",1
+41,Delaware,"Philadelphia, PA",Pennsylvania,563490.0,"62,440",4
+42,Montgomery,"Philadelphia, PA",Pennsylvania,820084.0,"77,207",2
+43,Philadelphia,"Philadelphia, PA",Pennsylvania,1576390.0,"55,718",6
+44,Burlington,"Philadelphia, PA",New Jersey,446108.0,"59,659",9
+45,Camden,"Philadelphia, PA",New Jersey,507075.0,"51,878",16
+46,Gloucester,"Philadelphia, PA",New Jersey,290647.0,"52,506",15
+47,Salem,"Philadelphia, PA",New Jersey,63189.0,"47,191",19
+48,Austin,"Houston, TX",Texas,29636.0,"49,262",34
+49,Brazoria,"Houston, TX",Texas,353778.0,"45,925",57
+50,Chambers,"Houston, TX",Texas,40247.0,"51,832",30
+51,Fort Bend,"Houston, TX",Texas,743303.0,"54,510",23
+52,Galveston,"Houston, TX",Texas,328822.0,"49,079",35
+53,Harris,"Houston, TX",Texas,4629189.0,"53,188",25
+54,Liberty,"Houston, TX",Texas,81513.0,"35,840",191
+55,Montgomery,"Houston, TX",Texas,555703.0,"57,585",14
+56,Waller,"Houston, TX",Texas,50069.0,"37,508",162
+57,Dade,"Miami, FL",Florida,,,
+58,Broward,"Miami, FL",Florida,1912977.0,"48,680",12
+59,Palm Beach,"Miami, FL",Florida,1451384.0,"74,754",4
+60,Fulton,"Atlanta, GA",Georgia,1022714.0,"78,794",1
+61,De Kalb,"Atlanta, GA",Georgia,,,
+62,Gwinnett,"Atlanta, GA",Georgia,905277.0,"39,856",28
+63,Cobb,"Atlanta, GA",Georgia,748563.0,"53,300",5
+64,Clayton,"Atlanta, GA",Georgia,279636.0,"27,289",148
+65,Coweta,"Atlanta, GA",Georgia,140419.0,"44,419",15
+66,Douglas,"Atlanta, GA",Georgia,141872.0,"34,147",81
+67,Fayette,"Atlanta, GA",Georgia,111336.0,"60,286",3
+68,Henry,"Atlanta, GA",Georgia,221188.0,"37,821",37
+69,Lapeer,"Detroit, MI",Michigan,88212.0,"40,960",28
+70,Livingston,"Detroit, MI",Michigan,188582.0,"55,799",4
+71,Macomb,"Detroit, MI",Michigan,868739.0,"44,850",15
+72,Oakland,"Detroit, MI",Michigan,1251126.0,"68,971",1
+73,St Clair,"Detroit, MI",Michigan,,,
+74,Wayne,"Detroit, MI",Michigan,1760095.0,"41,704",26
+75,King,"Seattle, WA",Washington,2166602.0,"83,383",1
+76,Snohomish,"Seattle, WA",Washington,787695.0,"52,405",4
+77,Pierce,"Seattle, WA",Washington,860072.0,"49,214",9
+78,Hennepin,"Minneapolis, MN",Minnesota,1235875.0,"71,067",1
+79,Ramsey,"Minneapolis, MN",Minnesota,541944.0,"52,291",8
+80,Dakota,"Minneapolis, MN",Minnesota,417732.0,"57,638",4
+81,Anoka,"Minneapolis, MN",Minnesota,346665.0,"48,687",22
+82,Washington,"Minneapolis, MN",Minnesota,252650.0,"63,681",3
+83,Scott,"Minneapolis, MN",Minnesota,143340.0,"56,753",5
+84,Wright,"Minneapolis, MN",Minnesota,132343.0,"47,577",31
+85,Carver,"Minneapolis, MN",Minnesota,100380.0,"67,680",2
+86,Sherburne,"Minneapolis, MN",Minnesota,93266.0,"45,157",44
+87,St Croix,"Minneapolis, MN",Wisconsin,,,
+88,Chisago,"Minneapolis, MN",Minnesota,54588.0,"46,421",38
+89,Pierce,"Minneapolis, MN",Wisconsin,41409.0,"44,636",35
+90,Isanti,"Minneapolis, MN",Minnesota,38777.0,"42,673",61
+91,Le Sueur,"Minneapolis, MN",Minnesota,27720.0,"47,050",35
+92,Mille Lacs,"Minneapolis, MN",Minnesota,25583.0,"40,685",75
+93,Sibley,"Minneapolis, MN",Minnesota,14815.0,"45,467",42
+94,Cuyahoga,"Cleveland, OH",Ohio,1254482.0,"52,783",7
+95,Lake,"Cleveland, OH",Ohio,229623.0,"48,695",13
+96,Geauga,"Cleveland, OH",Ohio,93902.0,"66,214",2
+97,Medina,"Cleveland, OH",Ohio,176901.0,"53,528",6
+98,Lorain,"Cleveland, OH",Ohio,306619.0,"44,433",24
+99,Jefferson,"Denver, CO",Colorado,571779.0,"60,398",11
+100,Adams,"Denver, CO",Colorado,498249.0,"41,215",42
+101,Arapahoe,"Denver, CO",Colorado,638571.0,"56,642",14
+102,Lake,"Orlando, FL",Florida,334748.0,"40,541",32
+103,Orange,"Orlando, FL",Florida,1324843.0,"42,541",24
+104,Osceola,"Orlando, FL",Florida,337730.0,"32,096",49
+105,Seminole,"Orlando, FL",Florida,455665.0,"46,231",14
+106,Multnomah,"Portland, OR",Oregon,803741.0,"54,329",3
+107,Washington,"Portland, OR",Oregon,584835.0,"57,331",1
+108,Clackamas,"Portland, OR",Oregon,406794.0,"56,268",2
+109,Columbia,"Portland, OR",Oregon,50930.0,"42,092",14
+110,Yamhill,"Portland, OR",Oregon,104264.0,"42,882",12
+111,Clark,"Portland, OR",Washington,465310.0,"50,078",7
+112,Skamania,"Portland, OR",Washington,11585.0,"43,851",18
+113,St Louis,"St. Louis, MO",Missouri,,,
+114,St Louis City,"St. Louis, MO",Missouri,,,
+115,St Charles,"St. Louis, MO",Missouri,,,
+116,St Clair,"St. Louis, MO",Illinois,,,
+117,Madison,"St. Louis, MO",Illinois,265733.0,"44,768",28
+118,Allegheny,"Pittsburgh, PA",Pennsylvania,1226660.0,"58,146",5
+119,Armstrong,"Pittsburgh, PA",Pennsylvania,66299.0,"41,756",37
+120,Beaver,"Pittsburgh, PA",Pennsylvania,166772.0,"45,851",21
+121,Butler,"Pittsburgh, PA",Pennsylvania,186248.0,"55,534",7
+122,Fayette,"Pittsburgh, PA",Pennsylvania,132365.0,"39,948",51
+123,Washington,"Pittsburgh, PA",Pennsylvania,207418.0,"54,210",9
+124,Westmoreland,"Pittsburgh, PA",Pennsylvania,354814.0,"49,040",14
+125,Cabarrus,"Charlotte, NC",North Carolina,201470.0,"43,920",19
+126,Gaston,"Charlotte, NC",North Carolina,216716.0,"39,578",33
+127,Iredell,"Charlotte, NC",North Carolina,172552.0,"48,606",8
+128,Lincoln,"Charlotte, NC",North Carolina,81118.0,"43,453",21
+129,Mecklenburg,"Charlotte, NC",North Carolina,1056665.0,"57,368",3
+130,Rowan,"Charlotte, NC",North Carolina,139495.0,"36,994",51
+131,Union,"Charlotte, NC",North Carolina,226383.0,"49,648",6
+132,Chester,"Charlotte, NC",South Carolina,32269.0,"32,667",32
+133,Lancaster,"Charlotte, NC",South Carolina,89957.0,"47,505",3
+134,York,"Charlotte, NC",South Carolina,257853.0,,
+135,Sacramento,"Sacramento, CA",California,1511510.0,"50,197",27
+136,Salt Lake,"Salt Lake City, UT",Utah,1120684.0,"49,445",3
+137,Tooele,"Salt Lake City, UT",Utah,64535.0,"35,166",16
+138,Cass,"Kansas City, MO",Missouri,102645.0,"45,075",7
+139,Clay,"Kansas City, MO",Missouri,238618.0,"46,026",5
+140,Clinton,"Kansas City, MO",Missouri,20527.0,"41,554",18
+141,Jackson,"Kansas City, MO",Missouri,692255.0,"44,432",10
+142,Johnson,"Kansas City, MO",Kansas,585921.0,"69,977",2
+143,Lafayette,"Kansas City, MO",Missouri,32516.0,"40,657",22
+144,Leavenworth,"Kansas City, MO",Kansas,80190.0,"41,101",66
+145,Miami,"Kansas City, MO",Kansas,32916.0,"46,231",30
+146,Platte,"Kansas City, MO",Missouri,98627.0,"54,893",2
+147,Ray,"Kansas City, MO",Missouri,22720.0,"40,116",27
+148,Wyandotte,"Kansas City, MO",Kansas,164934.0,"32,085",105
+149,Bates,"Kansas City, MO",Missouri,16355.0,"37,037",51
+150,Caldwell,"Kansas City, MO",Missouri,9050.0,"35,121",64
+151,Linn,"Kansas City, MO",Kansas,9608.0,"34,694",103
+152,Delaware,"Columbus, OH",Ohio,196923.0,"71,325",1
+153,Fairfield,"Columbus, OH",Ohio,152656.0,"44,179",26
+154,Franklin,"Columbus, OH",Ohio,1274580.0,"49,448",10
+155,Clark,"Las Vegas, NV",Nevada,2140547.0,"44,217",8
+156,Marion,"Indianapolis, IN",Indiana,944139.0,"50,957",6
+157,Hamilton,"Indianapolis, IN",Indiana,315990.0,"71,377",1
+158,Hendricks,"Indianapolis, IN",Indiana,160369.0,"47,699",10
+159,Johnson,"Indianapolis, IN",Indiana,151575.0,"46,517",12
+160,Madison,"Indianapolis, IN",Indiana,129297.0,"36,691",74
+161,Hancock,"Indianapolis, IN",Indiana,73728.0,"48,381",8
+162,Morgan,"Indianapolis, IN",Indiana,69628.0,"42,324",27
+163,Boone,"Indianapolis, IN",Indiana,64168.0,"71,102",2
+164,Shelby,"Indianapolis, IN",Indiana,44259.0,"42,222",29
+165,Putnam,"Indianapolis, IN",Indiana,37251.0,"36,189",82
+166,Brown,"Indianapolis, IN",Indiana,15000.0,"44,905",16
+167,Brown,"Cincinnati, OH",Ohio,43637.0,"35,361",75
+168,Butler,"Cincinnati, OH",Ohio,378443.0,"44,900",23
+169,Clermont,"Cincinnati, OH",Ohio,203053.0,"50,003",9
+170,Clinton,"Cincinnati, OH",Ohio,41853.0,"43,080",30
+171,Hamilton,"Cincinnati, OH",Ohio,811572.0,"56,931",4
+172,Warren,"Cincinnati, OH",Ohio,226582.0,"56,808",5
+173,Boone,"Cincinnati, OH",Kentucky,129185.0,"45,358",8
+174,Bracken,"Cincinnati, OH",Kentucky,8367.0,"34,728",53
+175,Campbell,"Cincinnati, OH",Kentucky,92055.0,"46,127",7
+176,Gallatin,"Cincinnati, OH",Kentucky,8711.0,"30,286",99
+177,Grant,"Cincinnati, OH",Kentucky,24915.0,"34,322",58
+178,Kenton,"Cincinnati, OH",Kentucky,164676.0,"55,214",2
+179,Mason,"Cincinnati, OH",Kentucky,17182.0,"39,056",23
+180,Pendleton,"Cincinnati, OH",Kentucky,14571.0,"44,376",9
+181,Dearborn,"Cincinnati, OH",Indiana,49434.0,"45,298",14
+182,Franklin,"Cincinnati, OH",Indiana,22804.0,"44,500",18
+183,Ohio,"Cincinnati, OH",Indiana,5892.0,"38,856",57
+184,Wake,"Raleigh, NC",North Carolina,1048381.0,"56,162",4
+185,Franklin,"Raleigh, NC",North Carolina,64596.0,"34,302",76
+186,Johnston,"Raleigh, NC",North Carolina,190868.0,"38,278",42
+187,Durham,"Raleigh, NC",North Carolina,307705.0,"47,825",10
+188,Orange,"Raleigh, NC",North Carolina,142991.0,"62,202",1
+189,Chatham,"Raleigh, NC",North Carolina,69646.0,"60,127",2
+190,Person,"Raleigh, NC",North Carolina,39297.0,"36,722",53
+191,Harnett,"Raleigh, NC",North Carolina,130631.0,"32,947",85
+192,Dodge,"Milwaukee, WI",Wisconsin,87364.0,"42,640",50
+193,Milwaukee,"Milwaukee, WI",Wisconsin,955057.0,"45,099",32
+194,Jefferson,"Milwaukee, WI",Wisconsin,84485.0,"43,637",44
+195,Ozaukee,"Milwaukee, WI",Wisconsin,88327.0,"79,255",1
+196,Racine,"Milwaukee, WI",Wisconsin,194913.0,"46,412",22
+197,Walworth,"Milwaukee, WI",Wisconsin,102686.0,"46,737",19
+198,Washington,"Milwaukee, WI",Wisconsin,134386.0,"54,760",5
+199,Waukesha,"Milwaukee, WI",Wisconsin,398561.0,"69,111",2
