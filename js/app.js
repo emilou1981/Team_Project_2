@@ -3,7 +3,7 @@ var tbody = d3.select("#table-area");
 
 // from data.js
 var tableData = data;
-
+console.log(data);
 // Select the button
 // var button = d3.select("#filter-btn");
 
@@ -27,7 +27,7 @@ var tableData = data;
 //   console.log(filteredData);
   // Step 5: Use d3 to update each cell's text with
   // sighting report values (datetime, city, state, country, shape, durationMinutes, comments )
-  filteredData.forEach(function (tableData) {
+  tableData.forEach(function (tableData) {
     console.log(tableData);
     var row = tbody.append("tr");
     Object.entries(tableData).forEach(function ([key, value]) {
@@ -37,6 +37,6 @@ var tableData = data;
       var cell = row.append("td");
       cell.text(value);
     });
-//   });
+  });
 // });
 
