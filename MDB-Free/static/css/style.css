@@ -1,3 +1,6 @@
+body{
+  background-color: lightsteelblue;
+}
 .page_left {
    
     float: left;
@@ -9,9 +12,11 @@
 
   .page_right {
     float: right;
-    width: 98%;
+    background-color: whitesmoke;
+    width: 100;
+    height: 200;
     margin: 10px 10px 10px 10px;
-    padding: 30px;
+    padding: 10px;
   
   }
 
@@ -64,6 +69,10 @@
 
 #jobs_map {
   position: relative;
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
+}
+
+.table {
+  background-color: whitesmoke;
 }
