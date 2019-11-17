@@ -1,3 +1,6 @@
+body{
+  background-color: lightsteelblue;
+}
 .page_left {
    
     float: left;
@@ -9,10 +12,11 @@
 
   .page_right {
     float: right;
-    width: 98%;
-    height: 120%;
+    background-color: whitesmoke;
+    width: 100;
+    height: 200;
     margin: 10px 10px 10px 10px;
-    padding: 30px;
+    padding: 10px;
   
   }
 
@@ -24,11 +28,10 @@
 .hemi_title {
     text-align: center;
 }
-.row {
-    display: flex;
-    float: center;
-    text-align: center;
-  }
+/* .row {
+    padding: 10px;
+
+  } */
   
   .column {
     flex: 33.33%;
@@ -57,3 +60,19 @@
     bottom: .5em;
 }
   
+
+#map_container {
+  position: relative;
+  height: 98%;
+  width: 98%;
+}
+
+#jobs_map {
+  position: relative;
+  height: 400px;
+  width: 600px;
+}
+
+.table {
+  background-color: whitesmoke;
+}

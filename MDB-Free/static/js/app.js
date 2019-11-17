@@ -25,6 +25,9 @@ console.log(data);
 //   inputElement.property("value","");
 
 //   console.log(filteredData);
+
+
+
   // Step 5: Use d3 to update each cell's text with
   // sighting report values (datetime, city, state, country, shape, durationMinutes, comments )
   tableData.forEach(function (tableData) {
@@ -35,14 +38,14 @@ console.log(data);
       // Append a cell to the row for each value
       // in the weather report object
       var cell = row.append("td");
-      cell.text(value);
+        cell.text(value);
+
     });
   });
-//   $(document).ready(function () {
-    // $('#jobs_table').DataTable();
-    // $('.dataTables_length').addClass('bs-select');
-    // });
-// });
+
+
+  
+
 // function handleChange() {
 //     var tableData = data;
 //     d3.select("tbody").selectAll("tr").remove();
