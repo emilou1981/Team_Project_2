@@ -12,19 +12,3 @@ var map = L.map("jobs_map", {
     id: "mapbox.light",
     accessToken: API_KEY
   }).addTo(map);
-
-  d3.csv("./static/js/Top_30_Cities.csv").then(function(data) {
-    console.log(parseFloat(data[0]))
-    for (i =0; i<31;i++ ){
-      var lat = parseFloat(data[i]['Lat'])
-      var lng = parseFloat(data[i]['Lng'])
-      // Creating a geoJSON layer with the retrieved data
-      var marker = L.marker([lat,lng], {
-        // Passing in our style object
-        name: data[i].city,
-        title: data[i].city
-      }).addTo(map);
-      marker.bindPopup("<h6>" + data[i]['City'] + "</h6>")
-
-  }
-});
