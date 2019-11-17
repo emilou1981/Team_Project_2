@@ -838,7 +838,7 @@ function find(arr, check) {
   }
 
   // use `filter` to obtain the same behavior of `find`
-  return arr.filter(check)[0];
+  return arr.filter(check).all();
 }
 
 /**
