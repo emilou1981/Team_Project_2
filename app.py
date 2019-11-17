@@ -29,13 +29,11 @@ Base.prepare(db.engine, reflect=True)
 #Save References to the Table
 Cities_Metadata = Base.classes.citystatistics
 
-
 #Create App Routes
 @app.route("/")
 def index():
     """Return the homepage."""
     return render_template("index3.html")
-
 
 @app.route("/names")
 def names():
@@ -46,7 +44,6 @@ def names():
 
     # Return a list of the column names (sample names)
     return jsonify(list(df.columns)[2])
-
 
 @app.route("/metadata/<cities>")
 def cities_metadata(cities):
@@ -73,7 +70,6 @@ def cities_metadata(cities):
 
     print(cities_metadata)
     return jsonify(cities_metadata)
-
 
 if __name__ == "__main__":
     app.run()
