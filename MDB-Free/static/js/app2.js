@@ -21,8 +21,8 @@ var map = L.map("jobs_map", {
       // Creating a geoJSON layer with the retrieved data
       var marker = L.marker([lat,lng], {
         // Passing in our style object
-        name: data[i].city,
-        title: data[i].city
+        name: data[i]['City'],
+        title: data[i]['City']
       }).addTo(map);
       marker.bindPopup("<h6>" + data[i]['City'] + "</h6>")
 
