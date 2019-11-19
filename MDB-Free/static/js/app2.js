@@ -11,11 +11,18 @@ var map = L.map("jobs_map", {
     maxZoom: 18,
     id: "mapbox.light",
     accessToken: API_KEY
-  }).addTo(map);
+  }).addTo(map).on("click", function() {
+    // get value of selection
+    var value = d3.select(this).attr("title");
+    console.log('YOU DID IT!')
+    console.log(value)
+  });
+
+  var myFeatureGroup = L.featureGroup().addTo(map).on("click", groupClick);
 
   d3.csv("./static/js/Top_30_Cities.csv").then(function(data) {
-    console.log(parseFloat(data[0]))
-    for (i =0; i<31;i++ ){
+    console.log(data[0])
+    for (i =0; i<data.length;i++ ){
       var lat = parseFloat(data[i]['Lat'])
       var lng = parseFloat(data[i]['Lng'])
       // Creating a geoJSON layer with the retrieved data
@@ -23,8 +30,15 @@ var map = L.map("jobs_map", {
         // Passing in our style object
         name: data[i]['City'],
         title: data[i]['City']
-      }).addTo(map);
-      marker.bindPopup("<h6>" + data[i]['City'] + "</h6>")
+      }).addTo(myFeatureGroup)
+      .bindPopup("<h6 class = 'marker'>" + data[i]['City'] + "</h6>")
+      marker.name = data[i]['City'];
 
   }
 });
+searchBar = d3.select('.form-control')
+console.log(myFeatureGroup)
+function groupClick(event) {
+  document.getElementsByClassName('form-control').value = event.layer.name 
+
+}
