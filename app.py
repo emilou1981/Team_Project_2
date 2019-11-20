@@ -13,6 +13,7 @@ from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
+app.config['STATIC_FOLDER'] = 'MDB-Free'
 
 #################################################
 # Database Setup
@@ -39,11 +40,10 @@ def index():
 def names():
 
     # Use Pandas to Perform the SQL Query
-    pdquery = db.session.query(Cities_Metadata).statement
-    df = pd.read_sql_query(pdquery, db.session.bind)
+    results = db.session.query(Cities_Metadata.city).all()
+    # put here "flatten"
+    return jsonify(results)
 
-    # Return a list of the column names (sample names)
-    return jsonify(list(df.columns)[2])
 
 @app.route("/metadata/<cities>")
 def cities_metadata(cities):

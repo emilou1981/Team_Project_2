@@ -12,13 +12,13 @@
   
   <!-- Bootstrap core CSS -->
   <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="{{ url_for('css', filename='css/bootstrap.min.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"/>
   <!-- Material Design Bootstrap -->
   <!-- <link rel="stylesheet" href="css/mdb.min.css"> -->
-  <link rel="stylesheet" href="{{ url_for('css', filename='css/mdb.min.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/mdb.min.css') }}"/>
   <!-- MDBootstrap Datatables  -->
   <!-- <link href="css/addons/datatables.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" href="{{ url_for('css', filename='css/addons/datatables.min.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/addons/datatables.min.css') }}"/>
   <!-- Leaflet Stylesheet-->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
   <!-- Your custom styles (optional) -->
@@ -65,22 +65,7 @@
           </div>
           
         </div>
-        <!-- <div class="row">
-              <div class="col-md-3">
-                <span class="page_right">
-                  <div class="col-md-10">
-                    <h4>Current Weather on Mars</h4>
-                    <p>{{mars.mars_weather}}</p>
-                    <br>
-                    <div class="col-md-10">
-                      <h4>Mars Facts</h3>
-                        {{mars.facts_string | safe}}
-                    </div>
-                  </div>
-                </span>
-              </div>
-    
-            </div> -->
+       
       </div>
     </div>
     </div>
@@ -148,15 +133,15 @@ crossorigin="anonymous"></script>
 
 <!-- <script src="static/js/data.js"></script> -->
   
-  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  <script src="{{ url_for('static', filename='static/js/app.js') }}"></script>
 <!-- <script src="static/js/app.js"></script> -->
   
-  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  <script src="{{ url_for('static', filename='static/js/app.js') }}"></script>
 <!-- <script src="static/js/app2.js"></script> -->
   
-  <script src="{{ url_for('static', filename='js/app2.js') }}"></script>
+  <script src="{{ url_for('static', filename='static/js/app2.js') }}"></script>
 <!-- <script src="static/js/app3.js"></script> -->
   
-  <script src="{{ url_for('static', filename='js/app3.js') }}"></script>
+  <script src="{{ url_for('static', filename='static/js/app3.js') }}"></script>
 </body>
 </html>
