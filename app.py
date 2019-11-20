@@ -18,7 +18,7 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgres://vqwpldlnxxqrvl:ba6bd238c236357aa816db445bceb5e604d7e491fbdecfd5bd8aace8885fb953@ec2-174-129-253-45.compute-1.amazonaws.com:5432/dbba91nli2plqi"
+app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get('DATABASE_URL','')
 db = SQLAlchemy(app)
 
 #Reflect Database into a New Model
@@ -33,7 +33,7 @@ Cities_Metadata = Base.classes.citystatistics
 @app.route("/")
 def index():
     """Return the homepage."""
-    return render_template("MDB-Free/index3.html")
+    return render_template("index3.html")
 
 @app.route("/names")
 def names():
