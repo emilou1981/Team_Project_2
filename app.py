@@ -41,8 +41,14 @@ def names():
 
     # Use Pandas to Perform the SQL Query
     results = db.session.query(Cities_Metadata.city).all()
-    # put here "flatten"
-    return jsonify(results)
+    #Flatten
+    flat_results = []
+    
+    for sublist in results:
+        for item in sublist:
+            flat_results.append(item)
+    
+    return jsonify(flat_results)
 
 
 @app.route("/metadata/<cities>")
