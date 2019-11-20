@@ -35,11 +35,22 @@ console.log(data);
     var row = tbody.append("tr");
     Object.entries(tableData).forEach(function ([key, value]) {
       console.log(key, value);
-      console.log(key[5]);
+      if (key =="href") {
+        var cell = row.append("td");
+        var link = cell.append("a");
+        
+      }
+      if (key !== "href") {
+        var cell = row.append("td");
+        cell.text(value)
+      };
+      
+
+      // console.log(key[5]);
       // Append a cell to the row for each value
       // in the weather report object
-      var cell = row.append("td");
-        cell.text(value);
+      // var cell = row.append("td");
+      //   cell.text(value);
 
     });
   });
