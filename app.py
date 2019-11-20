@@ -33,7 +33,7 @@ Cities_Metadata = Base.classes.citystatistics
 @app.route("/")
 def index():
     """Return the homepage."""
-    return render_template("index3.html")
+    return render_template("MDB-Free/index3.html")
 
 @app.route("/names")
 def names():
