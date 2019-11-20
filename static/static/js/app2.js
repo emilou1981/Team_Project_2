@@ -1,5 +1,5 @@
 
-var API_KEY = 'pk.eyJ1IjoiZ3JpZmZpbmRpZW1lciIsImEiOiJjazJocHkwcWwwZ2lwM2xudmtpNmVsbmlpIn0.Zkr81-DiSjz-shnrTj8eAg'
+var API_KEY = 'pk.eyJ1IjoiZW1pbG91MTk4MSIsImEiOiJjazMzZXFzaG8wM2h2M2hxb2E0dndqMnE3In0.Uafwf4aRtpoUN5t7h1HbGw'
 
 var map = L.map("jobs_map", {
     center: [39.8283, -98.5795],
@@ -20,7 +20,7 @@ var map = L.map("jobs_map", {
 
   var myFeatureGroup = L.featureGroup().addTo(map).on("click", groupClick);
 
-  d3.csv("./static/js/Top_30_Cities.csv").then(function(data) {
+  d3.csv("../static/static/js/Top_30_Cities.csv").then(function(data) {
     console.log(data[0])
     for (i =0; i<data.length;i++ ){
       var lat = parseFloat(data[i]['Lat'])

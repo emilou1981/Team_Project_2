@@ -1,5 +1,5 @@
 // Get a reference to the table
-var tbody = d3.select("#job_postings");
+var tbody = d3.select("#jobs_table").select("tbody");
 
 // from data.js
 var tableData = data;
@@ -26,7 +26,7 @@ console.log(data);
 
 //   console.log(filteredData);
 
-
+// function test(){
 
 
   // Step 5: Use d3 to update each cell's text with
@@ -34,18 +34,28 @@ console.log(data);
   tableData.forEach(function (tableData) {
     console.log(tableData);
     var row = tbody.append("tr");
+    var cell=row.append("td")
+      cell.html(`<a href='http://${tableData.href}'>${tableData.job_title}</a>`)
     Object.entries(tableData).forEach(function ([key, value]) {
       console.log(key, value);
-      if (key =="href") {
-        var cell = row.append("td");
-        var link = cell.append("a");
-        
-      }
-      if (key !== "href") {
+      if (key !=="href" && key!=="job_title") {
         var cell = row.append("td");
         cell.text(value)
       };
       
+
+
+      // tableData.forEach(function (tableData) {
+      //   console.log(tableData);
+      //   var row = tbody.append("tr");
+      //   // var cell=row.append("td")
+      //   //   cell.html(`<a href='http://${tableData.href}'>${tableData.job_title}</a>`)
+      //   Object.entries(tableData).forEach(function ([key, value]) {
+      //     console.log(key, value);
+      //     // if (key !=="href" && "job_title") {
+      //       var cell = row.append("td");
+      //       cell.text(value)
+      //     // }
 
       // console.log(key[5]);
       // Append a cell to the row for each value
@@ -54,9 +64,12 @@ console.log(data);
       //   cell.text(value);
 
     });
+    
   });
+  $('#jobs_table').DataTable();
+$('.dataTables_length').addClass('bs-select');
 
-
+// }
   
 
 // function handleChange() {

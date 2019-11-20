@@ -13,13 +13,13 @@ from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['STATIC_FOLDER'] = 'MDB-Free'
+# app.config['STATIC_FOLDER'] = 'MDB-Free'
 
 #################################################
 # Database Setup
 #################################################
-
-app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get('DATABASE_URL','')
+URL="postgres://vqwpldlnxxqrvl:ba6bd238c236357aa816db445bceb5e604d7e491fbdecfd5bd8aace8885fb953@ec2-174-129-253-45.compute-1.amazonaws.com:5432/dbba91nli2plqi"
+app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get('DATABASE_URL','') or URL
 db = SQLAlchemy(app)
 
 #Reflect Database into a New Model
