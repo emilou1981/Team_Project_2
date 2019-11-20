@@ -19,7 +19,9 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
+  <!-- <link rel="stylesheet" type="text/css" src="{{ url_for('static', filename='static/css/style.css') }}"/> -->
   
+
 </head>
 <body>
 
@@ -57,6 +59,7 @@
               <div id="sample-metadata" class="panel-body"></div>
             </div>
           </div>
+          
         </div>
         <!-- <div class="row">
               <div class="col-md-3">
@@ -103,15 +106,25 @@
   <!-- End your project here-->
 
   <!-- jQuery -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- <script type="text/javascript" src="js/popper.min.js"></script> -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+
   <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- <script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+
   <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- <script type="text/javascript" src="js/mdb.min.js"></script> -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/mdb.min.js') }}"></script>
+
   <!-- MDBootstrap Datatables  -->
-  <script type="text/javascript" src="js/addons/datatables.min.js"></script>
+  <!-- <script type="text/javascript" src="js/addons/datatables.min.js"></script> -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/addons/datatables.min.js') }}"></script>
+
   <!-- Your custom scripts (optional) -->
   <script type="text/javascript">
   $(document).ready(function () {
@@ -119,6 +132,7 @@ $('#jobs_table').DataTable();
 $('.dataTables_length').addClass('bs-select');
 });
 </script>
+
 <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 crossorigin="anonymous"></script> -->
@@ -128,9 +142,17 @@ crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
 <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
 
-<script src="static/js/data.js"></script>
-<script src="static/js/app.js"></script>
-<script src="static/js/app2.js"></script>
-<script src="static/js/app3.js"></script>
+<!-- <script src="static/js/data.js"></script> -->
+  
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+<!-- <script src="static/js/app.js"></script> -->
+  
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+<!-- <script src="static/js/app2.js"></script> -->
+  
+  <script src="{{ url_for('static', filename='js/app2.js') }}"></script>
+<!-- <script src="static/js/app3.js"></script> -->
+  
+  <script src="{{ url_for('static', filename='js/app3.js') }}"></script>
 </body>
 </html>
