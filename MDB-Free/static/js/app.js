@@ -28,6 +28,7 @@ console.log(data);
 
 
 
+
   // Step 5: Use d3 to update each cell's text with
   // sighting report values (datetime, city, state, country, shape, durationMinutes, comments )
   tableData.forEach(function (tableData) {
