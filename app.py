@@ -70,9 +70,9 @@ def cities_metadata(cities):
     for result in results:
         cities_metadata["Population"] = result[0]
         cities_metadata["Average Income"] = result[1]
-        cities_metadata["Studio Apartments"] = result[2]
-        cities_metadata["1BR Apartments"] = result[3]
-        cities_metadata["2BR Apartments"] = result[4]
+        cities_metadata["Apartment(Studio)"] = result[2]
+        cities_metadata["Apartment(1BR)"] = result[3]
+        cities_metadata["Apartment(2BR)"] = result[4]
 
     print(cities_metadata)
     return jsonify(cities_metadata)
