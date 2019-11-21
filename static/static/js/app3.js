@@ -35,7 +35,10 @@ function constructMetadata2(cities) {
         // Use `Object.entries` to add each key and value pair to the panel
         // Hint: Inside the loop, you will need to use d3 to append new tags for each key-value in the metadata
         Object.entries(data).forEach(([key, value]) => {
-            selectManipulatePanel.append("h6").text(`${key}: ${value}`);
+            if (key !== 'Population'){
+                selectManipulatePanel.append("h6").text(`${key}: $${value}`);
+            }else
+                selectManipulatePanel.append("h6").text(`${key}: ${value}`);
         });
     });
 };
