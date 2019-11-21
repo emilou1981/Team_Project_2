@@ -38,12 +38,17 @@ body{
     padding: 5px;
   }
 
-  .table-area {
+  #table_header {
+    /* text-align: center; */
+    padding: 50px;
+  }
+  #table-area {
     float: center;
-    width: 90%;
+    
+    width: 120%;
     height: 100%;
-    margin: 50px 50px 50px 50px;
-    padding: 30px;
+    /* margin: 1000px 50px 50px 50px; */
+    padding: 60px;
   }
 
   
@@ -75,4 +80,8 @@ body{
 
 .table {
   background-color: whitesmoke;
+  /* position: center; */
+  /* padding-left: 30px; */
+
 }
+
