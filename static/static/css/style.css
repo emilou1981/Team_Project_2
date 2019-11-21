@@ -10,13 +10,15 @@ body{
   
   }
 
+  .comparison {
+    float: right;
+  }
 
-/* 
   .left_city {
     float: center;
     padding: 10px;
     text-align: center;
-  } */
+  }
   .page_right {
     float: right;
     background-color: whitesmoke;
@@ -91,8 +93,8 @@ body{
 
 #jobs_map {
   position: relative;
-  height: 400px;
-  width: 600px;
+  height: 500px;
+  width: 800px;
 }
 
 .table {
