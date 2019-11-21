@@ -1,5 +1,5 @@
 
-var API_KEY = 'pk.eyJ1IjoiZW1pbG91MTk4MSIsImEiOiJjazMzZXFzaG8wM2h2M2hxb2E0dndqMnE3In0.Uafwf4aRtpoUN5t7h1HbGw'
+var API_KEY = 'pk.eyJ1IjoiZW1pbG91MTk4MSIsImEiOiJjazM3ejg4eXgwMnBwM2NtZ3Z1NXE2bDF5In0.dtzeOBO9XqFAggTb9ID8-Q'
 
 var map = L.map("jobs_map", {
     center: [39.8283, -98.5795],
