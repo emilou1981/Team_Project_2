@@ -10,6 +10,13 @@ body{
   
   }
 
+
+/* 
+  .left_city {
+    float: center;
+    padding: 10px;
+    text-align: center;
+  } */
   .page_right {
     float: right;
     background-color: whitesmoke;
@@ -20,6 +27,16 @@ body{
   
   }
 
+  /* .sample-metadata{
+    background-color: whitesmoke;
+  } */
+
+  #sample-metadata {
+    background-color: whitesmoke;
+    font-variant-numeric: slashed-zero;
+    text-align: left;
+
+  }
 .landing_left_image {
   display: inline-block;
 }
@@ -84,4 +101,5 @@ body{
   /* padding-left: 30px; */
 
 }
+
 
