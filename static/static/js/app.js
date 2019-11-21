@@ -34,14 +34,25 @@ console.log(data);
   tableData.forEach(function (tableData) {
     console.log(tableData);
     var row = tbody.append("tr");
+<<<<<<< Updated upstream:static/static/js/app.js
     var cell=row.append("td")
       cell.html(`<a href='http://${tableData.href}'>${tableData.job_title}</a>`)
     Object.entries(tableData).forEach(function ([key, value]) {
       console.log(key, value);
       if (key !=="href" && key!=="job_title") {
+=======
+    var cell = row.append("td");
+    cell("html",`<a href='${tableData.href}'>${tableData.job_title}</a`)
+
+    Object.entries(tableData).forEach(function ([key, value]) {
+      console.log(key, value);
+      if (key !=="job_title" && key !=="href") {
+>>>>>>> Stashed changes:MDB-Free/static/js/app.js
         var cell = row.append("td");
         cell.text(value)
+        
       };
+      
       
 
 
