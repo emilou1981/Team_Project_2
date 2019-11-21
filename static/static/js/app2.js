@@ -39,6 +39,7 @@ var map = L.map("jobs_map", {
 searchBar = d3.select('.form-control')
 console.log(myFeatureGroup)
 function groupClick(event) {
-  document.getElementsByClassName('form-control').value = event.layer.name 
+  document.getElementsByClassName('form-control').property('value',event.layer.name ); 
+  console.log(event.layer.name)
 
 }

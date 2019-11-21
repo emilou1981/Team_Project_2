@@ -63,7 +63,7 @@ def cities_metadata(cities):
         Cities_Metadata.twobedroom,
     ]
 
-    results = db.session.query(*sel).filter(Cities_Metadata.cities == cities).all()
+    results = db.session.query(*sel).filter(Cities_Metadata.city == cities).all()
 
     # Create a Dictionary Entry for Each Row of Metadata Information
     cities_metadata = {}
